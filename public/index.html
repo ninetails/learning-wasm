@@ -2,8 +2,11 @@
 <html>
 <head>
   <title>WASM test</title>
+  <link rel="prefetch" href="main.mjs"><link rel="preload" href="main.mjs" as="script">
+  <link rel="prefetch" href="fib.wasm"><link rel="preload" href="fib.wasm" as="script">
 </head>
 <body>
   <h1>WASM test</h1>
+  <script type="module" src="main.mjs"></script>
 </body>
 </html>

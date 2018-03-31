@@ -6,6 +6,6 @@ export function fib(n: i32): i32 {
   return b;
 }
 
-export function addTwo(a: i32, b: i32): i32 {
-  return a + b;
+export function addTwo(num: i32): i32 {
+  return num + 2;
 }

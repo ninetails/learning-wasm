@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "asc": "asc src/fib.ts -o public/fib.wasm",
-    "start": "http2server start"
+    "start": "http2server start",
+    "build": "rollup --format es --file public/main.mjs src/main.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/ninetails/learning-wasm#readme",
   "devDependencies": {
     "@http2/server": "^4.6.1",
-    "assemblyscript": "^0.3.0"
+    "assemblyscript": "^0.3.0",
+    "rollup": "^0.57.1"
   }
 }
