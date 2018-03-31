@@ -5,3 +5,7 @@ export function fib(n: i32): i32 {
   }
   return b;
 }
+
+export function addTwo(a: i32, b: i32): i32 {
+  return a + b;
+}

@@ -58,4 +58,4 @@ typings/
 .env
 
 # Project
-fib.wasm
+public/fib.wasm
