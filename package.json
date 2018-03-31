@@ -1,0 +1,23 @@
+{
+  "name": "learning-wasm",
+  "version": "1.0.0",
+  "description": "Following this article: https://medium.com/@BenedekGagyi/the-simplest-way-to-get-started-with-webassembly-1f92f6f90d24",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninetails/learning-wasm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninetails/learning-wasm/issues"
+  },
+  "homepage": "https://github.com/ninetails/learning-wasm#readme",
+  "devDependencies": {
+    "assemblyscript": "^0.3.0"
+  }
+}
