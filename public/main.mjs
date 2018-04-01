@@ -1,8 +1,19 @@
 (() => {
   const TOTAL_CASES = 1000000;
 
+  function fib(n) {
+    let i, t, a = 0, b = 1;
+    for (i = 0; i < n; i++) {
+      t = a + b; a = b; b = t;
+    }
+    return b;
+  }
+
   function calcjs() {
     console.time('js');
+    for (let i = 0; i < TOTAL_CASES; i++) {
+      fib(5);
+    }
     console.timeEnd('js');
   }
 

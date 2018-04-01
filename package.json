@@ -22,7 +22,6 @@
   "homepage": "https://github.com/ninetails/learning-wasm#readme",
   "devDependencies": {
     "@http2/server": "^4.6.1",
-    "assemblyscript": "^0.3.0",
-    "rollup": "^0.57.1"
+    "assemblyscript": "^0.3.0"
   }
 }
