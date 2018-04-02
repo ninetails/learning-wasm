@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "asc": "asc src/fib.ts -o public/fib.wasm",
-    "start": "http2server start",
-    "build": "rollup --format es --file public/main.mjs src/main.js"
+    "start": "http2server start"
   },
   "repository": {
     "type": "git",
